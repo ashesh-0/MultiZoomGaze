@@ -1,0 +1,10 @@
+__pycache__/
+*.vscode
+*log*.txt
+*.txt
+*.csv
+*.log
+*.pkl
+*.tar
+XgazeSubmission/
+runs/

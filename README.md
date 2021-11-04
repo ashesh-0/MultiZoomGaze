@@ -10,13 +10,16 @@ Use the conda to create a new environment using the given [.yml](https://github.
 conda env create -f multizoomgaze_env.yml
 ```
 
-## Setting up the [Gaze360](http://gaze360.csail.mit.edu/iccv2019_gaze360.pdf) database.
-Register [here](http://gaze360.csail.mit.edu/download.php) which will then give you access to the database.
-
 
 ## Downloading the pre-trained checkpoint files.
 Download the checkpoint files from [here](https://drive.google.com/drive/folders/1ORsJMSiL0b7yEXCPENidhfTdNhUfJtNw).
 
+
+## Predicting the gaze on a random image.
+Use this [notebook](https://github.com/ashesh-0/MultiZoomGaze/blob/main/MSA_On_RandomImages.ipynb) to predict gaze direction in a random image.
+
+## Setting up the [Gaze360](http://gaze360.csail.mit.edu/iccv2019_gaze360.pdf) database.
+Register [here](http://gaze360.csail.mit.edu/download.php) which will then give you access to the database.
 
 ## Evaluating the model performance on Gaze360 dataset.
 
